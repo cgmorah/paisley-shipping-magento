@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Paisley_Shipping>
+            <version>0.1.0</version>
+        </Paisley_Shipping>
+    </modules>
+    <global>
+        <models>
+            <paisley_shipping>
+                <class>Paisley_Shipping_Model</class>
+            </paisley_shipping>
+        </models>
+    </global>
+    <default>
+        <carriers>
+            <paisley_customrate>
+                <active>1</active>
+                <model>paisley_shipping/carrier_customrate</model>
+                <title>Delivery</title>
+                <name>Default Rate</name>
+            </paisley_customrate>
+        </carriers>
+    </default>
+</config>

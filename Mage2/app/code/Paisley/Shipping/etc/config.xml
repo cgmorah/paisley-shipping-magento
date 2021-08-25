@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <!--     <modules>
+            <Paisley_Shipping>
+                <version>0.1.0</version>
+            </Paisley_Shipping>
+        </modules>
+        <global>
+            <models>
+                <paisley_shipping>
+                    <class>Paisley_Shipping_Model</class>
+                </paisley_shipping>
+            </models>
+        </global> -->
+    <!--default>
+        <carriers>
+            <paisley_customrate>
+                <active>1</active>
+                <model>Paisley\Shipping\Carrier\Customrate</model>
+                <title>Delivery</title>
+                <name>Default Rate</name>
+            </paisley_customrate>
+        </carriers>
+    </default>
+</config-->
+
+<default>
+    <carriers>
+        <customrate>
+            <active>1</active>
+            <title>Customrate Shipping</title>
+            <name>Customrate Shipping Method</name>
+            <model>Paisley\Shipping\Model\Carrier\Customrate</model>
+        </customrate>
+    </carriers>
+</default>
+</config>
